@@ -1,0 +1,484 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-03-29T09:29:39.3507021Z"
+Date: 2026-03-29T09:29:39Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+F:/GitHub/3DshooterB4312
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+62871
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: F:/GitHub/3DshooterB4312
+F:/GitHub/3DshooterB4312
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [7568]  Target information:
+
+Player connection [7568]  * "[IP] 192.168.31.11 [Port] 0 [Flags] 2 [Guid] 1818341608 [EditorId] 1818341608 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7568]  * "[IP] 10.0.85.2 [Port] 0 [Flags] 2 [Guid] 1818341608 [EditorId] 1818341608 [Version] 1048832 [Id] WindowsEditor(7,AndrewPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7568] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7568] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/GitHub/3DshooterB4312/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 580 2048SP (ID=0x6fdf)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.21923.11000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004476 seconds.
+- Loaded All Assemblies, in  0.884 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              16dba4560f8a4cfc8b76548f5ce2a198
+  Correlation Id:          e84e743afd88d9d93e19b85ac1ec9f7a
+  External correlation Id: 1083357934817588365
+  Machine Id:              pRoMOfVKYcxAZi9YmH9V//WcOME=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin" (connect: 0.00s, validation: 0.00s, handshake: 2.33s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-notifications" at "2026-03-29T09:29:41.6829759Z"
+[Licensing::Module] Licensing Background thread has ended after 2.33s
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.859 seconds
+Domain Reload Profiling: 1738ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (377ms)
+			TypeCache.Refresh (374ms)
+				TypeCache.ScanAssembly (347ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (859ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (765ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (128ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171059585381-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.965 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.372 seconds
+Domain Reload Profiling: 3331ms
+	BeginReloadAssembly (390ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (1377ms)
+		LoadAssemblies (980ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (602ms)
+			TypeCache.Refresh (452ms)
+				TypeCache.ScanAssembly (424ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1373ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1143ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (293ms)
+			ProcessInitializeOnLoadAttributes (706ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6427 unused Assets / (5.2 MB). Loaded Objects now: 7115.
+Memory consumption went from 179.7 MB to 174.5 MB.
+Total: 17.597600 ms (FindLiveObjects: 2.184700 ms CreateObjectMapping: 0.846200 ms MarkObjects: 10.543300 ms  DeleteObjects: 4.022500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 542453.216379 seconds.
+  path: Assets/GreenForest/Prefabs/Pinetree3.prefab
+  artifactKey: Guid(6896ba8c61fa0eb4189314decf27fd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/Pinetree3.prefab using Guid(6896ba8c61fa0eb4189314decf27fd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f46693ea679397296ee576bcf9543d7b') in 0.21599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.528971 seconds.
+  path: Assets/GreenForest/Nature/Foliage/Pinetree4.FBX
+  artifactKey: Guid(20bce710f96102f41b3d3221d8e0293f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Foliage/Pinetree4.FBX using Guid(20bce710f96102f41b3d3221d8e0293f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ba64a132b867009fef1a2668ac240fd') in 0.0649983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.355493 seconds.
+  path: Assets/GreenForest/Prefabs/Rock1.prefab
+  artifactKey: Guid(c0838fbfe1d3ce946ad71c8f92245ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/Rock1.prefab using Guid(c0838fbfe1d3ce946ad71c8f92245ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ed942bf2ae5342eeae2e2511a169683') in 0.0342064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.384610 seconds.
+  path: Assets/GreenForest/Prefabs/Rock2.prefab
+  artifactKey: Guid(bde7b025bc1456144b3e056046aa172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/Rock2.prefab using Guid(bde7b025bc1456144b3e056046aa172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b34d763667fb9f47002a81757e6acbf0') in 0.0204196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.472658 seconds.
+  path: Assets/GreenForest/Prefabs/Rock3.prefab
+  artifactKey: Guid(5aba400b67a0e37428f5bc005e68ef1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/Rock3.prefab using Guid(5aba400b67a0e37428f5bc005e68ef1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb8a6cfa4fe02239ef9f8fd8478c77e8') in 0.0187465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.376926 seconds.
+  path: Assets/GreenForest/Prefabs/Rock4.prefab
+  artifactKey: Guid(88c42e779d7f52249bd23d5e575dc206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/Rock4.prefab using Guid(88c42e779d7f52249bd23d5e575dc206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cb64ea2a68be50d0b10b2f7d42383dc') in 0.0328373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GreenForest/Prefabs/Root1.prefab
+  artifactKey: Guid(e3107906af530ca408371f305a851fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/Root1.prefab using Guid(e3107906af530ca408371f305a851fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e27a1920aea55ad26b1a0c33196aa1fa') in 0.0371232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333466 seconds.
+  path: Assets/GreenForest/Nature/Foliage/Root1.FBX
+  artifactKey: Guid(7993d1b6b21c3e04b9fafec26174d0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Foliage/Root1.FBX using Guid(7993d1b6b21c3e04b9fafec26174d0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd08a906f9d8b07bcd6294d317b4e924') in 0.0450233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.325195 seconds.
+  path: Assets/GreenForest/Nature/Foliage/Root2.FBX
+  artifactKey: Guid(d27d411bcd4c4e84b90a44f185bdef6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Foliage/Root2.FBX using Guid(d27d411bcd4c4e84b90a44f185bdef6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc33ac18ac6881f38b1b1699dd6a29bd') in 0.0494718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.740346 seconds.
+  path: Assets/GreenForest/Prefabs/Root3.prefab
+  artifactKey: Guid(1b8c539911f94734da286d66ee1161c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/Root3.prefab using Guid(1b8c539911f94734da286d66ee1161c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd99161403b994d55ff6af3221fef0c40') in 0.0289025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013702 seconds.
+  path: Assets/GreenForest/Prefabs/Root4.prefab
+  artifactKey: Guid(f610cff9ef34e8e45a114016266c060a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/Root4.prefab using Guid(f610cff9ef34e8e45a114016266c060a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '001a92fc9135641d87ec3f5f5eb35183') in 0.0369401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.530297 seconds.
+  path: Assets/Sci Fi Gun Heavy/Prefabs/GunHeavy/SciFiGunHeavy_Black.prefab
+  artifactKey: Guid(a14d308fe43cf2041b16523c8f25fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci Fi Gun Heavy/Prefabs/GunHeavy/SciFiGunHeavy_Black.prefab using Guid(a14d308fe43cf2041b16523c8f25fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5956d4e4493ebcc355a121757019ae54') in 0.2386435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140915 seconds.
+  path: Assets/Sci Fi Gun Heavy/Prefabs/GunHeavy/SciFiGunHeavy_Rad.prefab
+  artifactKey: Guid(db3e0e835c5252d41935f705b798a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci Fi Gun Heavy/Prefabs/GunHeavy/SciFiGunHeavy_Rad.prefab using Guid(db3e0e835c5252d41935f705b798a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38d9dc505c52d21795e2052609907a31') in 0.1006253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/GreenForest/Nature/Foliage/Smalltree.FBX
+  artifactKey: Guid(892b67500df5ba246b057b31670c7739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Foliage/Smalltree.FBX using Guid(892b67500df5ba246b057b31670c7739) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4725edaf3b91a2a125cb343fef91722a') in 0.0309126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.373253 seconds.
+  path: Assets/GreenForest/Prefabs/Smalltree.prefab
+  artifactKey: Guid(2a94a36b014ef564ab23afa2bb882842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/Smalltree.prefab using Guid(2a94a36b014ef564ab23afa2bb882842) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '635dcef4567f832f0c21a52c9ed439d5') in 0.0289494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594639 seconds.
+  path: Assets/GreenForest/Nature/Modular Trees/SmallTree1Dry.prefab
+  artifactKey: Guid(357791fb0e189a442b6961d3b3dd65a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Modular Trees/SmallTree1Dry.prefab using Guid(357791fb0e189a442b6961d3b3dd65a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a95f95c503a9876ef06a9a27c817716a') in 0.0995363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020030 seconds.
+  path: Assets/GreenForest/Prefabs/SmalltreeDry.prefab
+  artifactKey: Guid(bb79bad6f4330604a8985958c41b9877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/SmalltreeDry.prefab using Guid(bb79bad6f4330604a8985958c41b9877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e5dec700c4317d3afea9744b8166176') in 0.0313633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.392850 seconds.
+  path: Assets/GreenForest/Nature/Stones/Stone1.FBX
+  artifactKey: Guid(6a16bd79f9461e04dad3951aafd74a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Stones/Stone1.FBX using Guid(6a16bd79f9461e04dad3951aafd74a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '910ba3c512427d6a62876ab188c475d4') in 0.043925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.499601 seconds.
+  path: Assets/GreenForest/Prefabs/Stone2.prefab
+  artifactKey: Guid(26eafa9e5b2bfd14aab730e76ce9cc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/Stone2.prefab using Guid(26eafa9e5b2bfd14aab730e76ce9cc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed5a885e7c92c010e3a3a1b9d18d5f8c') in 0.0393055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258147 seconds.
+  path: Assets/GreenForest/Prefabs/Stone3.prefab
+  artifactKey: Guid(5e3bfce7cbdc3d84ca643c2678d779ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Prefabs/Stone3.prefab using Guid(5e3bfce7cbdc3d84ca643c2678d779ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a42d8234a6389109470aa2e39e2b38a9') in 0.0314728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229717 seconds.
+  path: Assets/GreenForest/Nature/Stones/Stone4.FBX
+  artifactKey: Guid(79cd7bd997f19bb458ccbe204e716326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Stones/Stone4.FBX using Guid(79cd7bd997f19bb458ccbe204e716326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '531b38123139fb4d29c637d5d936ae16') in 0.044661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066105 seconds.
+  path: Assets/GreenForest/Nature/Stones/Stone6.FBX
+  artifactKey: Guid(f8447ed3459ba5d46a002c9ff0695add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Stones/Stone6.FBX using Guid(f8447ed3459ba5d46a002c9ff0695add) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ef40a4d58e8b420a844f44fe8f88734') in 0.0490107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.150312 seconds.
+  path: Assets/GreenForest/Nature/Stones/Stone7.FBX
+  artifactKey: Guid(dc73f76955f50c346a61e0f6b12883fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Stones/Stone7.FBX using Guid(dc73f76955f50c346a61e0f6b12883fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e4d53719be523bc380825efa385a5be') in 0.0505053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.251890 seconds.
+  path: Assets/GreenForest/Nature/Stones/Stone8.FBX
+  artifactKey: Guid(21cb18e856c2b9d46b1206f465bc6d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Stones/Stone8.FBX using Guid(21cb18e856c2b9d46b1206f465bc6d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a795188d9ca14e31c95121bf2d24875') in 0.0351324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039633 seconds.
+  path: Assets/GreenForest/Nature/Stones/Stone10.FBX
+  artifactKey: Guid(3b2e06cc32571ee499c3dcfb60452c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Stones/Stone10.FBX using Guid(3b2e06cc32571ee499c3dcfb60452c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '833f66d5c055fbe5d15f3b459b67c775') in 0.0373886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GreenForest/Nature/Stones/Stone12.FBX
+  artifactKey: Guid(2bfe44b8b7930f44983a1dabffee830b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Stones/Stone12.FBX using Guid(2bfe44b8b7930f44983a1dabffee830b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e4012b3d964921b7dbbb5f8c464ffbc') in 0.0363794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049711 seconds.
+  path: Assets/GreenForest/Nature/Stones/Stone13.FBX
+  artifactKey: Guid(6728445a1e8e2664eb23d309047418df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Stones/Stone13.FBX using Guid(6728445a1e8e2664eb23d309047418df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f46d8a7405c8c9d7b2d08afabfbff68') in 0.0436522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.304428 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/Stone_Wall_1A2.prefab
+  artifactKey: Guid(d59fa0906bbd589479f1666d0e18322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/Stone_Wall_1A2.prefab using Guid(d59fa0906bbd589479f1666d0e18322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a8020679c772ff107ea7c2cb5d626fb') in 0.036235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Town Creator Kit LITE/FBX/Storage.fbx
+  artifactKey: Guid(cd6943c07c3fca14ab47e1ffb486043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/FBX/Storage.fbx using Guid(cd6943c07c3fca14ab47e1ffb486043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5677e8bb73732ef6816fc1e2506a7c9a') in 0.0568938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Town Creator Kit LITE/FBX/Town House 1.fbx
+  artifactKey: Guid(e3e7869774731504f99d7df44892ab0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/FBX/Town House 1.fbx using Guid(e3e7869774731504f99d7df44892ab0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72c6ef2de0079494e3fb10b06f3e9bbd') in 0.0381097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GreenForest/Nature/Modular Trees/Tree3.prefab
+  artifactKey: Guid(6fb9a20e10189f14f9d91660fc2eb7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Modular Trees/Tree3.prefab using Guid(6fb9a20e10189f14f9d91660fc2eb7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12860fda082379f52c6a76d8a8ce993a') in 0.0468232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GreenForest/Nature/Modular Trees/Tree2.prefab
+  artifactKey: Guid(b661cc93a8926624ea51b0d907fc012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Modular Trees/Tree2.prefab using Guid(b661cc93a8926624ea51b0d907fc012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf8850903a4ba875aec80db00e19daff') in 0.052883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046277 seconds.
+  path: Assets/GreenForest/Nature/Modular Trees/Tree_Oak1Dry.prefab
+  artifactKey: Guid(67d1e76e91aadf6498956eb9c702353a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Nature/Modular Trees/Tree_Oak1Dry.prefab using Guid(67d1e76e91aadf6498956eb9c702353a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81614c0c0abbdb0670f5cc03871a0a0c') in 0.0474757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
